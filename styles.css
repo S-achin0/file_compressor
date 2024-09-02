@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #3498db;
+}
+input[type="file"] {
+    display: none;
+}
+.file-input-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.file-input-label:hover {
+    background-color: #2980b9;
+}
+button {
+    padding: 10px 15px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #27ae60;
+}
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}

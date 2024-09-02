@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huffman Coding File Compressor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Huffman Coding File Compressor</h1>
+    <div class="container">
+        <div class="section">
+            <h2>Compression</h2>
+            <label for="compressFile" class="file-input-label">Choose File</label>
+            <input type="file" id="compressFile" accept=".txt">
+            <button id="compressBtn">Compress</button>
+            <button id="downloadCompressed" style="display: none;">Download Compressed</button>
+        </div>
+        <div class="section">
+            <h2>Decompression</h2>
+            <label for="decompressFile" class="file-input-label">Choose .huff File</label>
+            <input type="file" id="decompressFile" accept=".huff">
+            <button id="decompressBtn">Decompress</button>
+            <button id="downloadDecompressed" style="display: none;">Download Decompressed</button>
+        </div>
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
